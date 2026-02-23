@@ -79,6 +79,11 @@ nav a:hover {
     padding: 30px;
     border-radius: 15px;
     margin-top: 20px;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
 }
 
 footer {
